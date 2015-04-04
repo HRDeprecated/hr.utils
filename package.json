@@ -1,0 +1,18 @@
+{
+    "name": "hr.utils",
+    "description": "Wrapper for lodash with some useful methods",
+    "version": "0.0.0",
+    "dependencies": {
+        "lodash": "3.6.0"
+    },
+    "devDependencies": {
+        "hr.mocha": "0.2.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HappyRhino/hr.utils.git"
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/hr-mocha ./tests/index.js"
+    }
+}
