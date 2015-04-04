@@ -1,4 +1,4 @@
-var _ = require("lodash");
+var _ = require("lodash").runInContext();
 
 if(!Function.prototype.bind) {
     Function.prototype.bind = function(newThis) {
